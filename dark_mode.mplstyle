@@ -1,0 +1,36 @@
+# dark_mode.mplstyle
+
+# Backgrounds
+figure.facecolor : #1e1e1e
+axes.facecolor   : #1e1e1e
+savefig.facecolor: #1e1e1e
+
+# Text
+text.color       : white
+axes.labelcolor  : white
+xtick.color      : white
+ytick.color      : white
+
+# Grid and Spines
+axes.edgecolor   : white
+grid.color       : gray
+axes.grid        : False
+
+# Lines
+lines.linewidth  : 2
+lines.color      : #c084fc  # A nice purple tone
+
+# Font
+font.size        : 16
+font.family      : serif
+mathtext.fontset : stix
+mathtext.default : regular
+
+# Legend
+legend.facecolor : #1e1e1e
+legend.edgecolor : white
+legend.fontsize  : 12
+
+# Ticks
+xtick.major.size : 0
+ytick.major.size : 0
