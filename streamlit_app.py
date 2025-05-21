@@ -25,7 +25,7 @@ with st.sidebar:
         
     else: 
         code_as_text = st.text_area(label=" ", placeholder="Insert your code", label_visibility='collapsed')
-        language = st.selectbox("Select Language:", options=extension_language_map.keys())
+        language = st.selectbox("Select Language:", options=extension_language_map.keys(), index=None, placeholder=" ")
     if language and code_as_text:
         clicked = st.button("Analyse My Code",use_container_width= True)
         if clicked:
