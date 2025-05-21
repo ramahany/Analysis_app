@@ -84,14 +84,16 @@ Whether you're solving problems on LeetCode, prepping for interviews, or just cu
 
 ![image](https://github.com/user-attachments/assets/7a7265eb-d027-456b-aa83-d5866031a54b)
 
+---
+
 ### ➡️ Output:
--Time Complexity: O(n²)
--Annotated Code: Each line is explained with clear comments
--Plot: Matplotlib graph styled like LeetCode’s UI
+- Time Complexity: O(n²)
+- Annotated Code: Each line is explained with clear comments
+- Plot: Matplotlib graph styled like LeetCode’s UI
+---
 
 ## 🔗 Links
--🌐 Live App: [https://code0analysis0app.streamlit.app]
--💻 GitHub Repo: github.com/ramahany/Analysis_app
-
+- 🌐 Live App: [https://code0analysis0app.streamlit.app]
+- 💻 GitHub Repo: github.com/ramahany/Analysis_app
 
 
