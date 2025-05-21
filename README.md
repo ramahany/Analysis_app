@@ -17,11 +17,16 @@ Whether you're solving problems on LeetCode, prepping for interviews, or just cu
 - 💬 Returns:
   - A full explanation of your code with in-line comments
   - The **Big O time complexity**
-- 📊 Extracts the complexity and plots it visually using `matplotlib`
-- 🎨 Includes a custom dark theme to match LeetCode’s aesthetic
+- 📊 Visualizes complexity with a LeetCode-style plot
+- 🌐 Built with Streamlit and **hosted online** for instant access
 
 ---
 
+## 🌍 Try It Live
+
+👉 **[Launch the App](https://code0analysis0app.streamlit.app/)**  
+
+---
 ## ✨ Why I Built It
 
 > I was solving LeetCode problems and loved their AI Analysis feature—  
@@ -35,8 +40,8 @@ Whether you're solving problems on LeetCode, prepping for interviews, or just cu
 - Python 🐍
 - [Groq LLM API](https://groq.com/)
 - `matplotlib` for styled plotting
-- `streamlit` for UI (optional, if you add UI later)
-- Custom `.mplstyle` for LeetCode-themed plots
+- `streamlit` for UI
+- Custom `.mplstyle` for a LeetCode-inspired dark theme
 - File extension detection from scratch (`detect_lang.py`)
 
 ---
@@ -54,7 +59,11 @@ Whether you're solving problems on LeetCode, prepping for interviews, or just cu
    ```bash
     pip install -r requirements.txt
 
-3. Add your Groq API key to a secrets config or environment variable.
+3. Add your Groq API key to a secrets config or environment variable:
+
+   ```bash
+    GROQ_API_KEY = "your-key-here"
+
 4. Run the script:
 
    ```bash
@@ -81,7 +90,7 @@ Whether you're solving problems on LeetCode, prepping for interviews, or just cu
 -Plot: Matplotlib graph styled like LeetCode’s UI
 
 ## 🔗 Links
--🔥 Project Link: [https://code0analysis0app.streamlit.app]
+-🌐 Live App: [https://code0analysis0app.streamlit.app]
 -💻 GitHub Repo: github.com/ramahany/Analysis_app
 
 
